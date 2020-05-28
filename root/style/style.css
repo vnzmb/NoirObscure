@@ -17,7 +17,6 @@
     --text-color: #d3d3d3;
 }
 
-
 body {
     /* font-family: sweet-sans-pro, sans-serif; */
     /* font-family: novel-mono-pro; */
@@ -299,7 +298,6 @@ body {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     padding: 1rem;
-    
 }
 
 /* img modal */
@@ -478,14 +476,14 @@ body {
 
 /* Media queries */
 
-@media(max-width:768px) {
-    .content h1{
+@media (max-width: 768px) {
+    .content h1 {
         font-size: 1.1rem;
     }
-    #subtext{
+    #subtext {
         font-size: 0.5rem;
     }
-    #subtext p{
+    #subtext p {
         margin: 0;
         padding: 0;
     }
@@ -529,7 +527,7 @@ body {
         flex-direction: column;
         padding: 1rem;
     }
-    .contact-text{
+    .contact-text {
         padding: 1rem;
     }
     .contact-container i {
@@ -537,4 +535,4 @@ body {
         margin-top: 1rem;
         /* font-size: 2rem; */
     }
-
+}
