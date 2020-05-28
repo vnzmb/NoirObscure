@@ -65,3 +65,15 @@ img3.onclick = function () {
   modalImg3.src = this.src;
   captionText3.innerHTML = this.alt;
 };
+
+window.onclick = function (event) {
+  if (
+    event.target == modal ||
+    event.target == modal2 ||
+    event.target == modal3
+  ) {
+    modal.style.display = 'none';
+    modal2.style.display = 'none';
+    modal3.style.display = 'none';
+  }
+};
