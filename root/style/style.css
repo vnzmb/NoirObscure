@@ -141,7 +141,7 @@ body {
 }
 
 .about-text img {
-    width: 250px;
+    width: 270px;
     border-radius: 8%;
     padding: 10px;
     margin-right: 2rem;
@@ -149,13 +149,15 @@ body {
 
 .about-text p {
     line-height: 2;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--text-color);
-    font-weight: 400;
+    font-weight: 300;
+    text-align: left;
 }
 
 .p-item {
     max-width: 800px;
+    padding-right: 8px;
 }
 
 .p-item span {

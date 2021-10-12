@@ -1,8 +1,8 @@
 let animation = anime({
   targets: '.content',
-  translateX: 100,
+  translateX: 80,
   borderRadius: 200,
-  duration: 2000,
+  duration: 2500,
   direction: 'alternate',
 });
 
