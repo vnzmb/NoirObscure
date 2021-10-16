@@ -117,7 +117,7 @@ body {
 .about-text {
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 100%;
     align-items: center;
     text-align: center;
     margin: auto;
@@ -142,6 +142,12 @@ body {
     padding-top: 5%;
     font-weight: 200;
 
+}
+
+.i-item {
+    max-width: 50%;
+    margin: auto;
+    padding-top: 2rem;
 }
 
 .who-am-i h1 {
@@ -169,8 +175,10 @@ body {
 }
 
 .p-item {
-    max-width: 800px;
+    max-width: 50%;
+    margin: auto;
     padding-right: 8px;
+    padding-bottom: 5%;
 }
 
 .p-item span {
@@ -185,7 +193,7 @@ body {
 
 .tech-container {
     display: flex;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -223,7 +231,7 @@ body {
 .work-container {
     display: flex;
     margin: auto;
-    max-width: 80%;
+    max-width: 100%;
     justify-content: space-between;
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -558,7 +566,7 @@ body {
     .about-text {
         display: flex;
         flex-direction: column-reverse;
-        max-width: 90%;
+        max-width: 100%;
         margin: auto;
         /* margin-top: 1rem; */
     }
@@ -569,7 +577,7 @@ body {
     }
 
     .second-img-container {
-        display: none;
+        display: block;
     }
 
     .tech-text {
@@ -594,7 +602,7 @@ body {
         padding: 1rem;
     }
     .contact-container i {
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
         margin-top: 1rem;
         /* font-size: 2rem; */
     }
