@@ -105,7 +105,8 @@ body {
 
 .second-img-container {
     height: 40px;
-    padding: 4rem;
+    /* padding: 4rem; */
+    /* filter: brightness(100%); */
 }
 
 .second-img-container img {
