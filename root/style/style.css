@@ -54,6 +54,7 @@ body {
 
 .content h1 {
     font-size: 2.4rem;
+    font-weight: 200;
 }
 
 .content span {
@@ -71,6 +72,7 @@ body {
     justify-content: space-around; */
     font-size: 1.2rem;
     display: flex;
+    /* font-weight: 100; */
     margin-left: 3%;
     padding-top: 5px;
 }
@@ -84,7 +86,8 @@ body {
 #subtext h3 {
     font-style: italic;
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
+    margin-left: 10px;
 }
 
 .video-container video {
@@ -220,7 +223,8 @@ body {
 .tech-container i {
     font-size: 8rem;
     padding: 2rem;
-    background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color));
+    /* background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color)); */
+    background-image: linear-gradient(45deg, rgb(16, 64, 80), var(--secondary-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -245,7 +249,8 @@ body {
 .work-container i {
     font-size: 3rem;
     /* padding: 2rem; */
-    background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color));
+    /* background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color)); */
+    background-image: linear-gradient(45deg, white, gray);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -300,7 +305,8 @@ body {
 .second-row i {
     font-size: 3rem;
     /* padding: 2rem; */
-    background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color));
+    /* background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color)); */
+    background-image: linear-gradient(45deg, white, gray);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -337,14 +343,17 @@ body {
 #btn-email {
     border-radius: 8%;
     width: 25%;
+    /* color: linear-gradient(45deg, rgb(16, 64, 80), var(--secondary-color));; */
+    color: black;
     opacity: 78%;
     font-family: "Poppins";
-    background-color: var(--third-color);
+    background-image: linear-gradient(45deg, rgb(16, 64, 80), var(--secondary-color));
 }
 
 .contact-container i {
     font-size: 2rem;
     background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color));
+    background-image: linear-gradient(45deg, rgb(16, 64, 80), var(--secondary-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -549,18 +558,51 @@ body {
 
 @media (max-width: 768px) {
     .content h1 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
+
+    
     #subtext {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     #subtext h3 {
         display: flex;
         margin-left: 50%;
+        font-weight: 200;
     }
     .who-am-i h1 {
         font-size: 1.4rem;
         min-width: 10%;
+    }
+
+    /* .inside-p {
+        padding: 0;
+        margin: 0;
+    } */
+
+    .p-item {
+        max-width: 100%;
+    }
+
+    .i-item img {
+        /* max-width: 100; */
+        padding: 0;
+        margin: auto;
+        
+    }
+
+    .i-item {
+        display: flex;
+        margin-right: 300px;
+        padding-bottom: 20px;
+    }
+
+    .about-text img {
+        /* max-width: 100%; */
+        /* margin: auto; */
+        display: flex;
+        /* padding-right: 100px; */
+        margin-right: 100px
     }
 
     .about-text {
