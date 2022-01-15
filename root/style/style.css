@@ -147,6 +147,10 @@ body {
 
 }
 
+.inside-p a{
+    color: var(--third-color);
+}
+
 .i-item {
     max-width: 50%;
     margin: auto;
@@ -175,6 +179,19 @@ body {
     color: var(--text-color);
     font-weight: 300;
     text-align: left;
+}
+
+.bio-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside a {
+    color: var(--text-color);
+}
+
+.inside a:hover {
+    opacity: 0.7
 }
 
 .p-item {
@@ -575,10 +592,9 @@ body {
         min-width: 10%;
     }
 
-    /* .inside-p {
-        padding: 0;
-        margin: 0;
-    } */
+    .inside-p {
+        color: var(--third-color);
+    }
 
     .p-item {
         max-width: 100%;
